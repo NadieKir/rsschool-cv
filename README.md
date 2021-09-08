@@ -1,1 +1,1 @@
-# rsschool-cv
+https://NadieKir.github.io/rsschool-cv/cv
