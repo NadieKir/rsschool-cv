@@ -1,9 +1,10 @@
- # Kireyenko Nadezhda #
+ 
+ # Kireyenko Nadezhda 
  Junior Frontend Developer (Minsk, Belarus)
 
 ***
 
- ### My Contact Info ###
+ ### My Contact Info 
 
  * Phone: +375 (44) 745-67-33
  * E-mail: nadiekir@gmail.com
@@ -12,7 +13,7 @@
 
 ***
 
- ### About Me ###
+ ### About Me 
 
  Being an enthusiastic fast learner, my aim is to create sophisticated, innovative and convenient web-sites and applications getting through full development lifecycle.
 
@@ -24,7 +25,7 @@ I am always ready to challenge myself and solve various problems in order to  be
 
 ***
 
- ### My Skills ###
+ ### My Skills 
 
 * HTML5, CSS3
 * JavaScript
@@ -38,13 +39,14 @@ I am always ready to challenge myself and solve various problems in order to  be
 
  ### Code Example 
 
- #### __Problem__
+ #### Problem
 
- ##### [Find The Squares](https://www.codewars.com/kata/60908bc1d5811f0025474291) Codewars kata #####
+ ##### [Find The Squares](https://www.codewars.com/kata/60908bc1d5811f0025474291) Codewars kata 
 
  Complete the function that takes an odd integer (0 < n < 1000000) which is the difference between two consecutive perfect squares, and return these squares as a string in the format "bigger-smaller".
 
  #### My Solution 
+ 
  ```
 const findSquares = num => {
   let first = (num + 1) / 2;
@@ -55,13 +57,13 @@ const findSquares = num => {
 
  ***
 
- ### Work Experience ###
+ ### Work Experience 
 
  Nothing yet
 
  ***
 
- ### Education ###
+ ### Education 
 
  * Belarusian State Technological University (Faculty of Information Technology) ▸ 3rd course
  * Rolling Scopes School (JavaScript/Front-end 2021Q3) ▸ in progress
@@ -70,7 +72,7 @@ const findSquares = num => {
 
  ***
 
- ### English Level ###
+ # Level 
 
  B2 - Upper-Intermediate
  * School Lessons ▸ 11 years
