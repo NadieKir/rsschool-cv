@@ -1,5 +1,6 @@
  
  # Kireyenko Nadezhda 
+
  Junior Frontend Developer (Minsk, Belarus)
 
 ***
@@ -46,7 +47,7 @@ I am always ready to challenge myself and solve various problems in order to  be
  Complete the function that takes an odd integer (0 < n < 1000000) which is the difference between two consecutive perfect squares, and return these squares as a string in the format "bigger-smaller".
 
  #### My Solution 
- 
+
  ```
 const findSquares = num => {
   let first = (num + 1) / 2;
@@ -72,9 +73,10 @@ const findSquares = num => {
 
  ***
 
- # Level 
+ ### English Level 
 
  B2 - Upper-Intermediate
+
  * School Lessons ▸ 11 years
  * University Lessons ▸ 1 year
  * Streamline: General course ▸ 2 years
