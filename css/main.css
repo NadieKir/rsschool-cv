@@ -60,7 +60,7 @@ aside section {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .header img {
@@ -81,7 +81,7 @@ aside section {
 }
 
 .name {
-    font-size: 22px;
+    font-size: 23px;
 }
 
 .profession {
@@ -95,7 +95,7 @@ aside section {
 .contact-info {
     display: flex;
     flex-direction: column;
-    padding: 40px 0;
+    padding: 40px 0 25px;
 }
 
 .contacts {
@@ -105,7 +105,7 @@ aside section {
 }
 
 .contacts-icons {
-    margin-right: 20px;
+    margin-right: 14px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -143,7 +143,8 @@ aside section {
 .skills {
     display: flex;
     flex-direction: column;
-    padding: 40px 0;
+    padding: 40px 0 25px;
+
 }
 
 .skills ul {
@@ -160,7 +161,8 @@ aside section {
 .languages {
     display: flex;
     flex-direction: column;
-    padding: 40px 0;
+    padding: 40px 0 25px;
+
 }
 
 .languages ul {
@@ -179,8 +181,12 @@ main {
     width: 100%;
 }
 
+main section {
+    margin-bottom: 40px;
+}
+
 main .container {
-    width: 700px;
+    width: 690px;
     margin: 0 auto;
     padding: 45px 0;
 }
@@ -198,40 +204,67 @@ main h2::after {
 	height: 7px;
 	background: #293820;
 	border-radius: 10px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 main h2::before {
     content: '';
-    width: 40px;
-    height: 40px;
-    background-image: url('../img/my-photo.jpg');
-    background-size: 40px 40px;
+    width: 25px;
+    height: 25px;
+    background-size: 25px 25px;
+    margin-right: 18px;
+}
+
+.about-me h2::before {
+    background-image: url('../img/man.svg');
+}
+
+.work-experience h2::before {
+    background-image: url('../img/work.svg');
+}
+
+.education h2::before {
+    background-image: url('../img/edu.svg');
+}
+
+.code-example h2::before {
+    background-image: url('../img/code.svg');
+}
+
+.about-me p {
+    margin-top: 10px;
+}
+
+.education li {
+    margin-top: 10px;
+    list-style-position: inside;
+}
+
+.code-example p {
+    margin-top: 10px;
+}
+
+.code-example pre {
+    border: 1px solid #293820;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.footer {
+    color: #ffffff;
+    background-color: #0F2105;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 30px 95px 30px 60px ;
+}
+
+.footer a {
+    color: #ffffff;
 }
 
 
-/* --- RESPONSIVE --- */
 
-@media screen and (max-width: 1200px) {
-    .container {
-        width: 960px;
-    }
-}
 
-@media screen and (max-width: 992px) {
-    .container {
-        width: 720px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-        width: 540px;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .container {
-        width: 90%;
-    }
-}
