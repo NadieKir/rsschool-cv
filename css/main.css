@@ -5,6 +5,7 @@ body {
     font-weight: 300;
     letter-spacing: 0.03em;
     background-color: #D1D6D3;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, ul, li, p {
@@ -128,7 +129,8 @@ aside section {
     justify-content: space-between;
 }
 
-.contacts-text p, .contacts-text a {
+.contacts-text p, 
+.contacts-text a {
     display: block;
     font-size: 14px;
 }
@@ -179,6 +181,7 @@ aside section {
 main {
     background-color: #ffffff;
     width: 100%;
+    padding-top: 5px;
 }
 
 main section {
@@ -216,19 +219,19 @@ main h2::before {
 }
 
 .about-me h2::before {
-    background-image: url('../img/man.svg');
+    background-image: url("../img/man.svg");
 }
 
 .work-experience h2::before {
-    background-image: url('../img/work.svg');
+    background-image: url("../img/work.svg");
 }
 
 .education h2::before {
-    background-image: url('../img/edu.svg');
+    background-image: url("../img/edu.svg");
 }
 
 .code-example h2::before {
-    background-image: url('../img/code.svg');
+    background-image: url("../img/code.svg");
 }
 
 .about-me p {
@@ -245,7 +248,6 @@ main h2::before {
 }
 
 .code-example pre {
-    border: 1px solid #293820;
     font-size: 13px;
     margin-top: 20px;
 }
