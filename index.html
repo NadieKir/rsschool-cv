@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
 integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;700;800&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="css/main.css">
+    <link href='http://yastatic.net/highlightjs/8.2/styles/default.min.css' rel='stylesheet'/>
+    <link rel="shortcut icon" href="img/icon.png" type="image/svg">
     <title>Nadezhda Kireyenko</title>
 </head>
 <body>
@@ -15,6 +16,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
         <div class="main-wrapper">
 
             <aside>
+                <div class="aside-wrapper">
                 <header class="header">
                     <div class="wrapper">
                         <div class="img-wrapper">
@@ -73,10 +75,11 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
                         </ul>
                     </div>
                 </section>
+            </div>
             </aside>
 
             <main>
-            <div class="container">
+            <div class="main-container">
                 <section class="about-me">
                     <h2>About me</h2>
                     <p> Being an enthusiastic fast learner, my aim is to create sophisticated, innovative and convenient web-sites and applications getting through full development lifecycle.</p>
@@ -101,7 +104,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
                     <p>Find The Squares Codewars kata</p>
                     <p>Complete the function that takes an odd integer (0 &lt; n &lt; 1000000) which is the difference between two consecutive perfect squares, and return these squares as a string in the format “bigger-smaller”.</p>
                     <pre>
-                        <code>
+                        <code class="javascriot">
                     const findSquares = num => {
 
                         let first = (num + 1) / 2;
@@ -127,5 +130,8 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
         </footer>
 
     </div>
+
+    <script src='http://yastatic.net/highlightjs/8.2/highlight.min.js'></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
