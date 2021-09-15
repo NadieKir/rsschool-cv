@@ -303,9 +303,10 @@ main h2::before {
         width: 390px;
     }
 }
+
 @media screen and (max-width: 760px) {
     .container {
-        width: 660px;
+        width: 690px;
     }
 
     .main-container {
@@ -315,6 +316,10 @@ main h2::before {
 
 @media screen and (max-width: 660px) {
 
+    .container {
+        width: 100%;
+    }
+
     .main-wrapper {
         flex-direction: column;
     }
@@ -323,21 +328,41 @@ main h2::before {
         width: 100%;
     }
 
-    .aside-wrapper {
-   
-        margin: 0 auto;
-
-    }
-
     .main-container {
         width: 490px;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .main-container {
+        width: 390px;
     }
 
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
 
-    
-
-
+    .footer p {
+        margin-bottom: 20px;
+    }
 }
+
+@media screen and (max-width: 420px) {
+
+    .main-container {
+        width: 290px;
+    }
+
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+}
+
 
 
 
